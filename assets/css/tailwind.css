@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  @apply text-[14px] md:text-[16px];
+}
+body {
+  @apply bg-white;
+  font-family: "Work Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-slate-800 !leading-tight;
+}
+p {
+  @apply text-slate-500 !leading-normal;
+}
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 sm:px-6 sm:py-3 bg-violet-500 text-white hover:text-violet-500 hover:bg-white transition-colors rounded-xl focus:outline-none focus:ring-1 focus:ring-violet-400 focus:ring-opacity-75;
+  }
+  .btn-primary-lighter {
+    @apply px-4 py-2 sm:px-6 sm:py-3 bg-violet-100 text-violet-500 hover:text-white hover:bg-violet-500 transition-colors rounded-xl focus:outline-none focus:ring-1 focus:ring-violet-400 focus:ring-opacity-75;
+  }
+  .btn-primary-outline {
+    @apply px-4 py-2 sm:px-6 sm:py-3 bg-white text-violet-500 hover:bg-violet-500 hover:text-white transition-colors ring-1 ring-violet-500 rounded-xl focus:outline-none focus:ring-1 focus:ring-violet-400 focus:ring-opacity-75;
+  }
+  .nav-link {
+    @apply hover:text-violet-500 transition-colors cursor-pointer;
+  }
+  .app-link {
+    @apply text-violet-500 hover:text-slate-500 flex items-center transition-colors cursor-pointer;
+  }
+  .social-link {
+    @apply text-slate-500 hover:text-violet-500 flex items-center transition-colors cursor-pointer;
+  }
+  .app-banner {
+    @apply bg-gradient-to-tl from-slate-900 via-slate-700 to-violet-500 rounded-3xl;
+  }
+  .app-cards {
+    @apply flex flex-wrap justify-between;
+  }
+  .app-card {
+    @apply basis-full lg:basis-[calc(100%/3-1rem)];
+  }
+  .app-section {
+    @apply flex flex-wrap items-center justify-between;
+    .content, .media {
+      @apply basis-full md:basis-[calc(50%-1rem)] lg:basis-[calc(50%-2rem)] xl:basis-[calc(50%-6rem)] mb-8 md:mb-0;
+    }
+    .media {
+      img {
+        @apply w-full h-auto rounded-2xl mb-8 md:mb-0;
+      }
+    }
+  }
+}
