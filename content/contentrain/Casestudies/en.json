@@ -5,7 +5,12 @@
       "title": "We are a team of creative people.",
       "subtitle": "Our services",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?",
-      "logo": [],
+      "logo": {
+        "ID": "ac6d1ffd-f910-4ab4-8178-a7f0e1c7c2c3",
+        "src": "public/img/1658405122873_logo.png",
+        "alt": "Tatlumba Logo",
+        "createdAt": 1658405132423
+      },
       "media": [],
       "createdAt": 1658405079907
     },
