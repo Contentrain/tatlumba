@@ -6,7 +6,12 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Contentrain.io Ex delectus, qui odio esse, asperiores laudantium atque laborum aliquid.",
       "createdAt": 1658403180217
     },
-    "socialLinks": {},
+    "socialLinks": {
+      "ID": "da4c36fa-2d30-4b6a-b487-c2e95dc4066f",
+      "title": "Follow Us",
+      "list": [],
+      "createdAt": 1658403202766
+    },
     "siteMap": {},
     "createdAt": 1658403161717,
     "ID": "8f63c050-fdd2-4245-afd9-133de1c3f148"
