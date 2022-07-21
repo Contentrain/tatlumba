@@ -1,6 +1,14 @@
 [
   {
-    "appHero": {},
+    "appHero": {
+      "ID": "ee7c04db-ddba-4560-8bfa-fcb6698bc1f8",
+      "title": "We are a team of creative people.",
+      "subtitle": "Our services",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?",
+      "media": [],
+      "logo": [],
+      "createdAt": 1658400028150
+    },
     "details": [],
     "sections": [],
     "banner": {},
