@@ -4,7 +4,12 @@
       "ID": "24c6f4c4-0c67-4a10-b3fe-54b91c3f127b",
       "title": "Your Businness needs a Voice",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quas dolorem, nostrum esse quisquam!",
-      "media": [],
+      "media": {
+        "ID": "8bcdba5f-75ce-464a-8598-536bd03b3c3a",
+        "src": "public/img/1658394371416_placeholder.jpg",
+        "alt": "Microphone",
+        "createdAt": 1658394380427
+      },
       "button": {
         "ID": "b3b8f79e-ec95-4605-a3a7-c368acf5d649",
         "label": "Scedule a call",
