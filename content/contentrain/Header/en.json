@@ -7,7 +7,11 @@
       "link": "/",
       "createdAt": 1658393229064
     },
-    "navigation": {},
+    "navigation": {
+      "list": [],
+      "createdAt": 1658393239962,
+      "ID": "4808f951-e29f-4a56-9c7f-0d122ac50e9b"
+    },
     "createdAt": 1658392876340,
     "ID": "db91018e-61ae-4a39-90db-b5b6b687721b"
   }
