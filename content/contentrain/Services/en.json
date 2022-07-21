@@ -19,7 +19,15 @@
       },
       "createdAt": 1658400028150
     },
-    "details": [],
+    "details": [
+      {
+        "first": {},
+        "second": {},
+        "third": {},
+        "createdAt": 1658400783367,
+        "ID": "8bf91155-7a9a-445f-bbf4-ae3b18ce5ee0"
+      }
+    ],
     "sections": [],
     "banner": {},
     "createdAt": 1658399641534,
