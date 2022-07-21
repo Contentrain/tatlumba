@@ -12,7 +12,12 @@
       "title": "We are a team of creative people.",
       "subtitle": "Our services",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?",
-      "media": [],
+      "media": {
+        "ID": "f26ec68d-43ec-4193-9805-8cb7e71ba6b0",
+        "src": "public/img/1658406498011_case-studies.jpg",
+        "alt": "study 1",
+        "createdAt": 1658406503854
+      },
       "logo": [],
       "createdAt": 1658406482646
     },
