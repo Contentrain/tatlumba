@@ -49,7 +49,13 @@
       "createdAt": 1658394478570,
       "ID": "085f1745-69dc-434f-a759-d85ebd19e14b"
     },
-    "features": {},
+    "features": {
+      "ID": "942e61cb-9afe-4e32-b0be-2fe4be36facd",
+      "title": "Marketing strategy has to be the easies Tatlumba has to be the best.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi temporibus corrupti, minus, inventore dolorem ipsum officia ducimus omnis saepe explicabo dolore ipsam minima non magni dolorum architecto optio. Optio?",
+      "cards": [],
+      "createdAt": 1658394696870
+    },
     "banner": {},
     "studies": {},
     "testimonials": {},
