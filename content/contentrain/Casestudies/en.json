@@ -11,7 +11,12 @@
         "alt": "Tatlumba Logo",
         "createdAt": 1658405132423
       },
-      "media": [],
+      "media": {
+        "ID": "a680178a-5a58-4f30-a1d6-7968f0d15307",
+        "src": "public/img/1658405145190_background.jpeg",
+        "alt": "Background",
+        "createdAt": 1658405158730
+      },
       "createdAt": 1658405079907
     },
     "sections": [],
