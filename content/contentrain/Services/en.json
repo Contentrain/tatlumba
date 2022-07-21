@@ -77,7 +77,13 @@
         "createdAt": 1658401106107
       }
     ],
-    "banner": {},
+    "banner": {
+      "ID": "40f53614-f302-424e-9086-5199b8d86799",
+      "title": "Let’s spark conversations together",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "button": [],
+      "createdAt": 1658401128001
+    },
     "createdAt": 1658399641534,
     "ID": "ea6a081f-435c-4375-abe9-ebbbb0f2c0f8"
   }
