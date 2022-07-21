@@ -1,6 +1,11 @@
 [
   {
-    "summary": {},
+    "summary": {
+      "ID": "7fdda1d6-0b1d-473b-9c76-3930e5898140",
+      "title": "Our Expertise",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Contentrain.io Ex delectus, qui odio esse, asperiores laudantium atque laborum aliquid.",
+      "createdAt": 1658403180217
+    },
     "socialLinks": {},
     "siteMap": {},
     "createdAt": 1658403161717,
