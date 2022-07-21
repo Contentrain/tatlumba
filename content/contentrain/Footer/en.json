@@ -38,7 +38,12 @@
       ],
       "createdAt": 1658403202766
     },
-    "siteMap": {},
+    "siteMap": {
+      "ID": "b700146d-3711-4019-8e24-b7f932ed095e",
+      "title": "Studies",
+      "list": [],
+      "createdAt": 1658403864822
+    },
     "createdAt": 1658403161717,
     "ID": "8f63c050-fdd2-4245-afd9-133de1c3f148"
   }
