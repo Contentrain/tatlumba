@@ -9,7 +9,14 @@
     "socialLinks": {
       "ID": "da4c36fa-2d30-4b6a-b487-c2e95dc4066f",
       "title": "Follow Us",
-      "list": [],
+      "list": [
+        {
+          "ID": "ee16073b-2f14-43ba-93a2-37709564ff5f",
+          "icon": "ri-instagram-line",
+          "URL": "https://instagram.com",
+          "createdAt": 1658403245625
+        }
+      ],
       "createdAt": 1658403202766
     },
     "siteMap": {},
