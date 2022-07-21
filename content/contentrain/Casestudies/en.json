@@ -24,7 +24,12 @@
         "ID": "9c208702-72ad-42e4-85df-88e1ea22e83c",
         "title": "A Amazing Title for here",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
-        "media": [],
+        "media": {
+          "ID": "be986585-9003-47c7-9195-03b7af41a312",
+          "src": "public/img/1658405641049_case-studies.jpg",
+          "alt": "study 1",
+          "createdAt": 1658405645761
+        },
         "button": {
           "ID": "e653c88c-6d3c-479f-95d9-2c7b9e519e9f",
           "label": "Read Case Study",
