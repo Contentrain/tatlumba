@@ -47,6 +47,12 @@
           "title": "study 1",
           "link": "/",
           "createdAt": 1658403896339
+        },
+        {
+          "ID": "4b6bd528-fd9f-42c9-b419-5cb3799f6958",
+          "title": "study 2",
+          "link": "/",
+          "createdAt": 1658403902832
         }
       ],
       "createdAt": 1658403864822
