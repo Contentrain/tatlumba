@@ -126,7 +126,13 @@
             "alt": "Case 1",
             "createdAt": 1658396552169
           },
-          "button": [],
+          "button": {
+            "ID": "3e4495d0-15aa-4a28-9df8-1c2e81eb54b6",
+            "label": "Read case study ",
+            "link": "/",
+            "icon": "ri-arrow-right-up-line",
+            "createdAt": 1658396647047
+          },
           "createdAt": 1658396116393
         },
         {
