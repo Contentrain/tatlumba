@@ -99,7 +99,13 @@
       ],
       "createdAt": 1658394696870
     },
-    "banner": {},
+    "banner": {
+      "ID": "700f8adf-aead-47a5-9f9d-66e21923cb6f",
+      "title": "Let’s spark conversations together",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "button": [],
+      "createdAt": 1658395949235
+    },
     "studies": {},
     "testimonials": {},
     "createdAt": 1658393740372,
