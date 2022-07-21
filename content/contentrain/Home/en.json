@@ -69,6 +69,14 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus officia reiciendis? Iusto numquam culpa, iste, tenetur officiis eius deleniti hic quam error eum voluptatibus iure excepturi animi repellat optio!",
           "button": [],
           "createdAt": 1658395683170
+        },
+        {
+          "ID": "7d7825de-b80d-480f-a9e5-716537460291",
+          "icon": "ri-global-fill",
+          "title": "Marketing Strategy",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus officia reiciendis? Iusto numquam culpa, iste, tenetur officiis eius deleniti hic quam error eum voluptatibus iure excepturi animi repellat optio!",
+          "button": [],
+          "createdAt": 1658395707047
         }
       ],
       "createdAt": 1658394696870
