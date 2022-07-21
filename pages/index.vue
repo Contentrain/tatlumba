@@ -105,7 +105,7 @@
         </button>
       </div>
     </section>
-    <section class="services py-16 mt-16">
+    <section class="studies py-16 mt-16">
       <div class="content max-w-2xl mx-auto text-center mt-8 mb-8">
         <h2 class="font-semibold text-4xl mb-6">
           We help marketing teams and start-ups raise dollars
@@ -139,7 +139,7 @@
         </div>
       </div>
     </section>
-    <section class="services pb-16">
+    <section class="testimonials pb-16">
       <div class="content max-w-2xl mx-auto text-center mt-8 mb-8">
         <h2 class="font-semibold text-4xl mb-6">
           Quality is no accident

@@ -1,8 +1,86 @@
 [
   {
-    "appHero": {},
-    "sections": [],
-    "createdAt": 1658408599220,
-    "ID": "a65e0c26-c26c-43e3-aaf0-1aed6de02d05"
+    "appHero": {
+      "ID": "d528b73d-b371-4c1f-8c09-02ad69b4547b",
+      "title": "We are a team of creative people.",
+      "subtitle": "Our services",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?",
+      "logo": {
+        "ID": "ac6d1ffd-f910-4ab4-8178-a7f0e1c7c2c3",
+        "src": "public/img/1658405122873_logo.png",
+        "alt": "Tatlumba Logo",
+        "createdAt": 1658405132423,
+        "link": "/",
+        "updatedAt": 1658406808801
+      },
+      "media": {
+        "ID": "a680178a-5a58-4f30-a1d6-7968f0d15307",
+        "src": "public/img/1658405145190_background.jpeg",
+        "alt": "Background",
+        "createdAt": 1658405158730
+      },
+      "createdAt": 1658405079907
+    },
+    "sections": [
+      {
+        "ID": "9c208702-72ad-42e4-85df-88e1ea22e83c",
+        "title": "A Amazing Title for here",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
+        "media": {
+          "ID": "be986585-9003-47c7-9195-03b7af41a312",
+          "src": "public/img/1658405641049_case-studies.jpg",
+          "alt": "study 1",
+          "createdAt": 1658405645761
+        },
+        "button": {
+          "ID": "e653c88c-6d3c-479f-95d9-2c7b9e519e9f",
+          "label": "Read Case Study",
+          "link": "/",
+          "icon": "ri-arrow-right-up-line",
+          "createdAt": 1658405288686
+        },
+        "createdAt": 1658405238893
+      },
+      {
+        "ID": "7574efeb-d179-4fee-86e3-3acf9e06be4e",
+        "title": "A Amazing Title for here",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
+        "media": {
+          "ID": "1455a55f-6de8-4176-91d5-13484158aa46",
+          "src": "public/img/1658405664488_case-studies.jpg",
+          "alt": "study 2",
+          "createdAt": 1658405668038
+        },
+        "button": {
+          "ID": "45098507-ecde-4816-b8ed-df6feebeeb95",
+          "label": "Read Case Study",
+          "link": "/",
+          "icon": "ri-arrow-right-up-line",
+          "createdAt": 1658405301709
+        },
+        "createdAt": 1658405245697
+      },
+      {
+        "ID": "1cfd795e-dcdc-4d23-acc4-8cff502b455c",
+        "title": "A Amazing Title for here",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
+        "media": {
+          "ID": "b7f21bbf-b543-498f-bbee-e9be0012a536",
+          "src": "public/img/1658405685550_case-studies.jpg",
+          "alt": "study 3",
+          "createdAt": 1658405690942
+        },
+        "button": {
+          "ID": "a0aa4a5c-9c7e-4e78-a520-1994fe63edea",
+          "label": "Read Case Study",
+          "link": "/",
+          "icon": "ri-arrow-right-up-line",
+          "createdAt": 1658405321947
+        },
+        "createdAt": 1658405269467
+      }
+    ],
+    "createdAt": 1658405047747,
+    "ID": "4d29a2d0-d8d1-45be-8bc1-e564b45c0dfe"
   }
 ]
