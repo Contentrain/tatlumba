@@ -15,7 +15,11 @@ appHero:
     src: "public/img/1658406498011_case-studies.jpg"
     alt: "study 1"
     createdAt: 1658406503854
-  logo: []
+  logo:
+    ID: "86f20a0d-631e-4f71-960a-74e9958c9593"
+    src: "public/img/1658406526840_logo.png"
+    alt: "Tatlumba Logo"
+    createdAt: 1658406534709
   createdAt: 1658406482646
 banner: []
 createdAt: 1658406393724
