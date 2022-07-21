@@ -150,7 +150,12 @@
         {
           "ID": "1907115f-e975-4a79-9b35-69bf30348fa9",
           "title": "Case Study amet consectetur adipisicing elit 3",
-          "media": [],
+          "media": {
+            "ID": "39142e64-090b-4b42-bd42-8052cd10c5aa",
+            "src": "public/img/1658396706395_case-studies.jpg",
+            "alt": "study 3",
+            "createdAt": 1658396711163
+          },
           "button": [],
           "createdAt": 1658396146657
         }
