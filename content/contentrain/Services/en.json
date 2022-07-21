@@ -15,7 +15,9 @@
         "ID": "6b8deb23-6b3b-439c-8f54-2cb861884c16",
         "src": "public/img/1658400329218_logo.png",
         "alt": "Tatlumba Logo",
-        "createdAt": 1658400337774
+        "createdAt": 1658400337774,
+        "link": "/",
+        "updatedAt": 1658406782300
       },
       "createdAt": 1658400028150
     },
