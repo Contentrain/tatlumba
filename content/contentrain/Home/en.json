@@ -162,7 +162,13 @@
             "alt": "study 3",
             "createdAt": 1658396711163
           },
-          "button": [],
+          "button": {
+            "ID": "938eb5d0-4398-44cb-bf5e-02d7e3888c04",
+            "label": "Read case study ",
+            "link": "/",
+            "icon": "ri-arrow-right-up-line",
+            "createdAt": 1658396782290
+          },
           "createdAt": 1658396146657
         }
       ],
