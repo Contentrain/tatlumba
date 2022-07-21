@@ -8,7 +8,14 @@
       "createdAt": 1658393229064
     },
     "navigation": {
-      "list": [],
+      "list": [
+        {
+          "ID": "3bb2028e-5898-4daa-9419-c3c9349c653c",
+          "name": "Home",
+          "link": "/",
+          "createdAt": 1658393477264
+        }
+      ],
       "createdAt": 1658393239962,
       "ID": "4808f951-e29f-4a56-9c7f-0d122ac50e9b"
     },
