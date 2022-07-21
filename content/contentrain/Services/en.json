@@ -43,7 +43,16 @@
         "ID": "8bf91155-7a9a-445f-bbf4-ae3b18ce5ee0"
       }
     ],
-    "sections": [],
+    "sections": [
+      {
+        "ID": "d3634fec-b622-47b6-82ca-a767f2a98f46",
+        "title": "A Amazing Title for here",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
+        "media": [],
+        "button": [],
+        "createdAt": 1658400902088
+      }
+    ],
     "banner": {},
     "createdAt": 1658399641534,
     "ID": "ea6a081f-435c-4375-abe9-ebbbb0f2c0f8"
