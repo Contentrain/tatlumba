@@ -39,7 +39,13 @@
         "title": "A Amazing Title for here",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nesciunt temporibus, modi delectus illo blanditiis laudantium sed soluta consequatur voluptatum, molestiae consectetur voluptas officiis harum. Nesciunt, odio? Commodi, veniam nobis?",
         "media": [],
-        "button": [],
+        "button": {
+          "ID": "45098507-ecde-4816-b8ed-df6feebeeb95",
+          "label": "Read Case Study",
+          "link": "/",
+          "icon": "ri-arrow-right-up-line",
+          "createdAt": 1658405301709
+        },
         "createdAt": 1658405245697
       },
       {
