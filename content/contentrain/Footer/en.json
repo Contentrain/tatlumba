@@ -22,6 +22,12 @@
           "icon": "ri-linkedin-line",
           "URL": "https://www.linkedin.com/company/contentrain",
           "createdAt": 1658403419692
+        },
+        {
+          "ID": "332f2bac-5708-4488-a497-9772f894da57",
+          "icon": "ri-twitter-line",
+          "URL": "https://twitter.com/contentrain_io",
+          "createdAt": 1658403638820
         }
       ],
       "createdAt": 1658403202766
