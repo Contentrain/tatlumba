@@ -73,7 +73,13 @@
           "alt": "study 2",
           "createdAt": 1658401704577
         },
-        "button": [],
+        "button": {
+          "ID": "df322b1f-4b3d-46cf-8599-df13993d2e4a",
+          "label": "Scedule Call",
+          "link": "/",
+          "icon": "ri-arrow-right-up-line",
+          "createdAt": 1658401728496
+        },
         "createdAt": 1658400913823
       },
       {
