@@ -73,7 +73,13 @@
           "icon": "ri-voiceprint-line",
           "title": "Marketing Strategy",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus officia reiciendis? Iusto numquam culpa, iste, tenetur officiis eius deleniti hic quam error eum voluptatibus iure excepturi animi repellat optio!",
-          "button": [],
+          "button": {
+            "ID": "458f89c6-9060-4900-b476-cc10fd90bc95",
+            "label": "Learn More",
+            "link": "/",
+            "icon": "ri-arrow-right-line",
+            "createdAt": 1658395843909
+          },
           "createdAt": 1658395683170
         },
         {
