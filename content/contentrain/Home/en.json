@@ -53,7 +53,16 @@
       "ID": "942e61cb-9afe-4e32-b0be-2fe4be36facd",
       "title": "Marketing strategy has to be the easies Tatlumba has to be the best.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi temporibus corrupti, minus, inventore dolorem ipsum officia ducimus omnis saepe explicabo dolore ipsam minima non magni dolorum architecto optio. Optio?",
-      "cards": [],
+      "cards": [
+        {
+          "ID": "f13ad865-1bf4-474c-a2a6-aae6adbb11ff",
+          "icon": "ri-chat-voice-fill",
+          "title": "Marketing Strategy",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus officia reiciendis? Iusto numquam culpa, iste, tenetur officiis eius deleniti hic quam error eum voluptatibus iure excepturi animi repellat optio!",
+          "button": [],
+          "createdAt": 1658395646451
+        }
+      ],
       "createdAt": 1658394696870
     },
     "banner": {},
