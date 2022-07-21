@@ -20,6 +20,8 @@ appHero:
     src: "public/img/1658406526840_logo.png"
     alt: "Tatlumba Logo"
     createdAt: 1658406534709
+    link: "/"
+    updatedAt: 1658406796394
   createdAt: 1658406482646
 banner: []
 createdAt: 1658406393724
