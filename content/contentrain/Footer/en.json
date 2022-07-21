@@ -41,7 +41,14 @@
     "siteMap": {
       "ID": "b700146d-3711-4019-8e24-b7f932ed095e",
       "title": "Studies",
-      "list": [],
+      "list": [
+        {
+          "ID": "c1cc9b17-0bc3-47bf-aff8-4bcb84889b86",
+          "title": "study 1",
+          "link": "/",
+          "createdAt": 1658403896339
+        }
+      ],
       "createdAt": 1658403864822
     },
     "createdAt": 1658403161717,
