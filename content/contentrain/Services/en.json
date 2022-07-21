@@ -5,7 +5,12 @@
       "title": "We are a team of creative people.",
       "subtitle": "Our services",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?",
-      "media": [],
+      "media": {
+        "ID": "279784c2-2faa-4cb1-a241-9620081eadff",
+        "src": "public/img/1658400156616_background.jpeg",
+        "alt": "Services Hero",
+        "createdAt": 1658400172539
+      },
       "logo": [],
       "createdAt": 1658400028150
     },
