@@ -1,6 +1,12 @@
 [
   {
-    "logo": {},
+    "logo": {
+      "ID": "1b876792-f305-4ee1-906e-14bac32911d4",
+      "src": "public/img/1658393224721_logo.png",
+      "alt": "Tatlumba Logo",
+      "link": "/",
+      "createdAt": 1658393229064
+    },
     "navigation": {},
     "createdAt": 1658392876340,
     "ID": "db91018e-61ae-4a39-90db-b5b6b687721b"
