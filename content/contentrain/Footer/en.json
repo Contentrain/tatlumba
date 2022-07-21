@@ -28,6 +28,12 @@
           "icon": "ri-twitter-line",
           "URL": "https://twitter.com/contentrain_io",
           "createdAt": 1658403638820
+        },
+        {
+          "ID": "ed1f7495-b32f-4667-b520-589bb4ef47ba",
+          "icon": "ri-youtube-line",
+          "URL": "https://www.youtube.com/channel/UC0AFA1-3jRQSl4gVaOiILTw",
+          "createdAt": 1658403689637
         }
       ],
       "createdAt": 1658403202766
