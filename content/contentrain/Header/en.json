@@ -20,6 +20,12 @@
           "name": "Services",
           "link": "/services",
           "createdAt": 1658393495586
+        },
+        {
+          "ID": "d048e51e-6c9d-4e82-979c-ff69e15b8f3f",
+          "name": "Case Studies",
+          "link": "/case-studies",
+          "createdAt": 1658393506975
         }
       ],
       "createdAt": 1658393239962,
