@@ -26,6 +26,12 @@
           "src": "public/img/1658394500740_logoipsum-2.svg",
           "alt": "Reference Logo 1",
           "createdAt": 1658394521292
+        },
+        {
+          "ID": "1a573cd0-9a1a-4264-b89e-d644c08a19f3",
+          "src": "public/img/1658394526744_logoipsum-3.svg",
+          "alt": "Reference Logo 2",
+          "createdAt": 1658394531304
         }
       ],
       "createdAt": 1658394478570,
