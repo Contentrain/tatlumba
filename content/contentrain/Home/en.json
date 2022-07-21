@@ -112,7 +112,13 @@
       },
       "createdAt": 1658395949235
     },
-    "studies": {},
+    "studies": {
+      "ID": "b0b99e12-5711-4d80-8915-6a494a469518",
+      "title": "We help marketing teams and start-ups raise dollars",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi temporibus corrupti, minus, inventore dolorem ipsum officia ducimus .",
+      "cards": [],
+      "createdAt": 1658396097927
+    },
     "testimonials": {},
     "createdAt": 1658393740372,
     "ID": "fe53d308-ae4b-4bde-afd2-a7af004c9c23"
