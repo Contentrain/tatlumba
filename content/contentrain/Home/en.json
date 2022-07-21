@@ -5,7 +5,13 @@
       "title": "Your Businness needs a Voice",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, quas dolorem, nostrum esse quisquam!",
       "media": [],
-      "button": [],
+      "button": {
+        "ID": "b3b8f79e-ec95-4605-a3a7-c368acf5d649",
+        "label": "Scedule a call",
+        "link": "/",
+        "icon": "ri-arrow-right-up-line",
+        "createdAt": 1658394059066
+      },
       "createdAt": 1658393985845
     },
     "references": {},
