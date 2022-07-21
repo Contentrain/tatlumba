@@ -5,7 +5,14 @@ slug: "study-first"
 categories: []
 tags: []
 description: "Lorem markdownum, lenius et vince Eetioneas Philyreius territa audax famuli? Ad pocula olorinis, primus astra obsidis, arvis ne infelix rebus imis iuventa non unam plagas, ignesque! Est nisi post avertens, ille boumque figuras, missi sepulcri inmutat."
-appHero: []
+appHero:
+  ID: "cbc9d9e1-5f2d-498c-a327-75aef7dcd994"
+  title: "We are a team of creative people."
+  subtitle: "Our services"
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?"
+  media: []
+  logo: []
+  createdAt: 1658406482646
 banner: []
 createdAt: 1658406393724
 
