@@ -20,7 +20,14 @@
       "createdAt": 1658393985845
     },
     "references": {
-      "media": [],
+      "media": [
+        {
+          "ID": "32b3a323-e5fe-4437-84fb-46090cdf5060",
+          "src": "public/img/1658394500740_logoipsum-2.svg",
+          "alt": "Reference Logo 1",
+          "createdAt": 1658394521292
+        }
+      ],
       "createdAt": 1658394478570,
       "ID": "085f1745-69dc-434f-a759-d85ebd19e14b"
     },
