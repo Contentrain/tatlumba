@@ -19,7 +19,11 @@
       },
       "createdAt": 1658393985845
     },
-    "references": {},
+    "references": {
+      "media": [],
+      "createdAt": 1658394478570,
+      "ID": "085f1745-69dc-434f-a759-d85ebd19e14b"
+    },
     "features": {},
     "banner": {},
     "studies": {},
