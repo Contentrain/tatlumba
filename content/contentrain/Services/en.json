@@ -21,7 +21,12 @@
     },
     "details": [
       {
-        "first": {},
+        "first": {
+          "ID": "76b0ba70-8479-42b4-9b0a-32783adee0a2",
+          "value": "22",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore.",
+          "createdAt": 1658400797185
+        },
         "second": {},
         "third": {},
         "createdAt": 1658400783367,
