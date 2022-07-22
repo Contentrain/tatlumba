@@ -22,7 +22,12 @@ appHero:
     link: "/"
     createdAt: 1658495674059
   createdAt: 1658495561626
-banner: []
+banner:
+  ID: "be95f7ad-7217-48e5-b759-f6c7fe15980d"
+  title: "test"
+  description: "test"
+  button: []
+  createdAt: 1658495692549
 createdAt: 1658495543599
 
 ---
