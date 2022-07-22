@@ -29,9 +29,9 @@
 
       <div class="cta-button flex justify-start md:justify-end basis-full md:basis-1/2">
         <button class="btn-primary">
-          <a :href="caseStudiesPage.banner.button.link">
+          <nuxt-link :to="caseStudiesPage.banner.button.link">
             {{ caseStudiesPage.banner.button.label }} <i class="ml-3" :class="caseStudiesPage.banner.button.icon" />
-          </a>
+          </nuxt-link>
         </button>
       </div>
     </section>

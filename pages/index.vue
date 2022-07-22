@@ -11,9 +11,9 @@
           {{ homePage.hero.description }}
         </p>
         <button class="btn-primary flex items-center">
-          <a :href="homePage.hero.button.link">
+          <nuxt-link :to="homePage.hero.button.link">
             {{ homePage.hero.button.label }}<i class="ml-3" :class="homePage.hero.button.icon" />
-          </a>
+          </nuxt-link>
         </button>
       </div>
       <div class="media p-0 md:pl-2">
@@ -87,9 +87,9 @@
 
       <div class="cta-button flex justify-start md:justify-end basis-full md:basis-1/2">
         <button class="btn-primary">
-          <a :href="homePage.banner.button.link">
+          <nuxt-link :to="homePage.banner.button.link">
             {{ homePage.banner.button.label }}<i class="ml-3" :class="homePage.banner.button.icon" />
-          </a>
+          </nuxt-link>
         </button>
       </div>
     </section>

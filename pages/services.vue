@@ -30,9 +30,9 @@
 
       <div class="cta-button flex justify-start md:justify-end basis-full md:basis-1/2">
         <button class="btn-primary">
-          <a :href="servicesPage.banner.button.link">
+          <nuxt-link :to="servicesPage.banner.button.link">
             {{ servicesPage.banner.button.label }}<i class="ml-3" :class="servicesPage.banner.button.icon" />
-          </a>
+          </nuxt-link>
         </button>
       </div>
     </section>

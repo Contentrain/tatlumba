@@ -15,9 +15,7 @@
       </div>
       <div v-if="logo?.src" class="media flex justify-end items-end w-full lg:w-1/2 pt-12">
         <nuxt-link :to="logo.link">
-          <a class="text-2xl">
-            <img class="w-24 md:w-36 h-auto" :src="logo.src" :alt="logo.alt">
-          </a>
+          <img class="w-24 md:w-36 h-auto" :src="logo.src.split('public')[1]" :alt="logo.alt">
         </nuxt-link>
       </div>
     </div>

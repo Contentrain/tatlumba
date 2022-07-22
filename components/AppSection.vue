@@ -9,9 +9,9 @@
       </h1>
       <p>{{ section.description }}</p>
       <button class="btn-primary-lighter flex items-center mt-8">
-        <a :href="section.button.link">
+        <nuxt-link :to="section.button.link">
           {{ section.button.label }} <i class=" ml-3" :class="section.button.icon" />
-        </a>
+        </nuxt-link>
       </button>
     </div>
   </section>
