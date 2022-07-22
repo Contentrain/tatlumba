@@ -8,7 +8,13 @@
     "slug": "study-first",
     "description": "",
     "appHero": [],
-    "banner": [],
+    "banner": {
+      "ID": "3255dbb9-b14c-4f87-b85f-68044555bce5",
+      "title": "Let’s spark conversations together",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "button": [],
+      "createdAt": 1658495286596
+    },
     "createdAt": 1658407432614
   }
 ]
