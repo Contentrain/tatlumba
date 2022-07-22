@@ -39,7 +39,9 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658405288686
         },
-        "createdAt": 1658405238893
+        "createdAt": 1658405238893,
+        "index": 0,
+        "updatedAt": 1658492079905
       },
       {
         "ID": "7574efeb-d179-4fee-86e3-3acf9e06be4e",
@@ -58,7 +60,9 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658405301709
         },
-        "createdAt": 1658405245697
+        "createdAt": 1658405245697,
+        "index": 1,
+        "updatedAt": 1658492088765
       },
       {
         "ID": "1cfd795e-dcdc-4d23-acc4-8cff502b455c",
@@ -77,10 +81,25 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658405321947
         },
-        "createdAt": 1658405269467
+        "createdAt": 1658405269467,
+        "index": 2,
+        "updatedAt": 1658492098149
       }
     ],
     "createdAt": 1658405047747,
-    "ID": "4d29a2d0-d8d1-45be-8bc1-e564b45c0dfe"
+    "ID": "4d29a2d0-d8d1-45be-8bc1-e564b45c0dfe",
+    "banner": {
+      "ID": "2dfbc1bd-5b59-42ab-8a18-ec2add1c6cee",
+      "title": "Let’s spark conversations together",
+      "descriprion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "button": {
+        "ID": "4aff646a-04a9-42f0-b221-18bb96185fb5",
+        "label": "Schedule a call",
+        "link": "/",
+        "icon": "ri-arrow-right-up-line",
+        "createdAt": 1658493718799
+      },
+      "createdAt": 1658493700518
+    }
   }
 ]
