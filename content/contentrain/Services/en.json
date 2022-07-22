@@ -126,7 +126,9 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658401834978
         },
-        "createdAt": 1658401106107
+        "createdAt": 1658401106107,
+        "index": 3,
+        "updatedAt": 1658490590922
       }
     ],
     "banner": {
