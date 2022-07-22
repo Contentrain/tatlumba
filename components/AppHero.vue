@@ -13,10 +13,10 @@
           {{ description }}
         </p>
       </div>
-      <div class="media flex justify-end items-end w-full lg:w-1/2 pt-12">
-        <nuxt-link to="/">
+      <div v-if="logo?.src" class="media flex justify-end items-end w-full lg:w-1/2 pt-12">
+        <nuxt-link :to="logo.link">
           <a class="text-2xl">
-            <img class="w-24 md:w-36 h-auto" :src="logoUrl" alt="Tatlumba">
+            <img class="w-24 md:w-36 h-auto" :src="logo.src" :alt="logo.alt">
           </a>
         </nuxt-link>
       </div>
@@ -39,19 +39,18 @@ const props = defineProps({
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?',
     type: String
   },
-  backgroundUrl: {
-    default:
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-    type: String
+  media: {
+    type: Object,
+    default: () => {}
   },
-  logoUrl: {
-    default: '/img/logo.png',
-    type: String
+  logo: {
+    type: Object,
+    default: () => {}
   }
 })
 const cssVars = computed(() => {
   return {
-    '--background-url': `url(${props.backgroundUrl})`
+    '--background-url': `url(${props.media.src})`
   }
 })
 </script>

@@ -1,6 +1,13 @@
 <template>
   <div class="container px-4 sm:px-0 mx-auto">
-    <AppHero class="mt-12 mb-32" />
+    <AppHero
+      class="mt-12 mb-32"
+      :title="servicesPage.appHero.title"
+      :subtitle="servicesPage.appHero.subtitle"
+      :description="servicesPage.appHero.description"
+      :media="servicesPage.appHero.media"
+      :logo="servicesPage.appHero.logo"
+    />
     <AppCounter class="mb-32" />
     <AppSection
       v-for="section in 3"
@@ -29,4 +36,10 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup>
+const { data } = await useAsyncData('services', () =>
+  queryContent('contentrain', 'services').findOne()
+)
+const servicesPage = data.value.body[0]
+
+</script>
