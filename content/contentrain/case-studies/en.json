@@ -12,7 +12,12 @@
       "title": "test",
       "subtitle": "test",
       "description": "test",
-      "media": [],
+      "media": {
+        "ID": "b77a4c4d-2a7b-4132-9dce-804283080edc",
+        "src": "public/img/1658495588243_background.jpeg",
+        "alt": "background",
+        "createdAt": 1658495595338
+      },
       "logo": [],
       "createdAt": 1658495561626
     },
