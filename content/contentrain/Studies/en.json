@@ -60,7 +60,9 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658405301709
         },
-        "createdAt": 1658405245697
+        "createdAt": 1658405245697,
+        "index": 1,
+        "updatedAt": 1658492088765
       },
       {
         "ID": "1cfd795e-dcdc-4d23-acc4-8cff502b455c",
