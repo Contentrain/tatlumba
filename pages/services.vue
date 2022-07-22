@@ -14,6 +14,7 @@
       :key="section"
       :reverse="section.index % 2 === 0"
       class="mb-40"
+      :section="section"
     />
     <section
       class="app-banner p-20 flex items-center justify-between mt-16 max-w-5xl mx-auto flex-wrap mb-40"
