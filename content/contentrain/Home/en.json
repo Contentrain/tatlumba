@@ -62,9 +62,10 @@
           "button": {
             "ID": "95418102-b799-4abf-a8cd-c878f6734871",
             "label": "Learn More",
-            "link": "/",
+            "link": "/services",
             "icon": "ri-arrow-right-line",
-            "createdAt": 1658395813115
+            "createdAt": 1658395813115,
+            "updatedAt": 1658477458174
           },
           "createdAt": 1658395646451
         },
@@ -76,9 +77,10 @@
           "button": {
             "ID": "458f89c6-9060-4900-b476-cc10fd90bc95",
             "label": "Learn More",
-            "link": "/",
+            "link": "/services",
             "icon": "ri-arrow-right-line",
-            "createdAt": 1658395843909
+            "createdAt": 1658395843909,
+            "updatedAt": 1658477470924
           },
           "createdAt": 1658395683170
         },
@@ -90,9 +92,10 @@
           "button": {
             "ID": "e1f24661-4267-4215-a0dc-8141f14092e7",
             "label": "Learn More",
-            "link": "/",
+            "link": "/services",
             "icon": "ri-arrow-right-line",
-            "createdAt": 1658395857489
+            "createdAt": 1658395857489,
+            "updatedAt": 1658477488659
           },
           "createdAt": 1658395707047
         }
