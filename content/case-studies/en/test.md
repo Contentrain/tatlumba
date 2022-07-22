@@ -26,7 +26,12 @@ banner:
   ID: "be95f7ad-7217-48e5-b759-f6c7fe15980d"
   title: "test"
   description: "test"
-  button: []
+  button:
+    ID: "337180dd-909a-43e0-a437-c303c8393f24"
+    label: "test"
+    link: "/"
+    icon: ""
+    createdAt: 1658495708035
   createdAt: 1658495692549
 createdAt: 1658495543599
 
