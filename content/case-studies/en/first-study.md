@@ -10,7 +10,11 @@ appHero:
   title: "We are a team of creative people."
   subtitle: "Our services"
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo libero laboriosam? Illum, nam. Repellendus aliquid, soluta, recusandae rem eaque dignissimos velit voluptatem tenetur?"
-  media: []
+  media:
+    ID: "9272e971-7134-4f45-b895-6ce9dabc4781"
+    src: "public/img/1658496059095_background.jpeg"
+    alt: "background"
+    createdAt: 1658496065506
   logo: []
   createdAt: 1658496033257
 banner: []
