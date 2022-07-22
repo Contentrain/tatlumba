@@ -8,11 +8,11 @@
       :media="servicesPage.appHero.media"
       :logo="servicesPage.appHero.logo"
     />
-    <AppCounter class="mb-32" />
+    <AppCounter class="mb-32" :cards="servicesPage.details" />
     <AppSection
-      v-for="section in 3"
+      v-for="section in servicesPage.sections"
       :key="section"
-      :reverse="section % 2 === 0"
+      :reverse="section.index % 2 === 0"
       class="mb-40"
     />
     <section
@@ -20,16 +20,18 @@
     >
       <div class="content max-w-md pb-8 lg:pb-0 basis-full md:basis-1/2">
         <h2 class="text-white text-4xl font-semibold mb-4">
-          Let’s spark conversations together
+          {{ servicesPage.banner.title }}
         </h2>
         <p class="text-white text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {{ servicesPage.banner.description }}
         </p>
       </div>
 
       <div class="cta-button flex justify-start md:justify-end basis-full md:basis-1/2">
         <button class="btn-primary">
-          Schedule a call <i class="ri-arrow-right-up-line ml-3" />
+          <a :href="servicesPage.banner.button.link">
+            {{ servicesPage.banner.button.label }}<i class="ml-3" :class="servicesPage.banner.button.icon" />
+          </a>
         </button>
       </div>
     </section>

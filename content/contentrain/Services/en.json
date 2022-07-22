@@ -21,30 +21,28 @@
       },
       "createdAt": 1658400028150
     },
-    "details": [
-      {
+    "details":{
         "first": {
           "ID": "76b0ba70-8479-42b4-9b0a-32783adee0a2",
-          "value": "22",
+          "value": 22,
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore.",
           "createdAt": 1658400797185
         },
         "second": {
           "ID": "abf6609e-a11f-48bd-9f49-9d11d38362a4",
-          "value": "4",
+          "value": 4,
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore.",
           "createdAt": 1658400805742
         },
         "third": {
           "ID": "404a3eb8-b62b-4f35-ae7e-bfc5eb90d211",
-          "value": "58",
+          "value": 58,
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore.",
           "createdAt": 1658400815349
         },
         "createdAt": 1658400783367,
         "ID": "8bf91155-7a9a-445f-bbf4-ae3b18ce5ee0"
-      }
-    ],
+      },
     "sections": [
       {
         "ID": "d3634fec-b622-47b6-82ca-a767f2a98f46",
