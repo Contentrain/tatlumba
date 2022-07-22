@@ -5,7 +5,14 @@ tags: []
 slug: "test"
 description: "test"
 categories: []
-appHero: []
+appHero:
+  ID: "d67bb3c9-a94a-4a6e-af95-bb2c967e912b"
+  title: "test"
+  subtitle: "test"
+  description: "test"
+  media: []
+  logo: []
+  createdAt: 1658495561626
 banner: []
 createdAt: 1658495543599
 
