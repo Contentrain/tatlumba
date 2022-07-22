@@ -48,7 +48,7 @@ const props = defineProps({
 })
 const cssVars = computed(() => {
   return {
-    '--background-url': `url(${props.media.src})`
+    '--background-url': `url(${props.media.src.split('public')[1]})`
   }
 })
 </script>

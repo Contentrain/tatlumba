@@ -6,36 +6,22 @@
     >
       <div class="flex justify-between items-center">
         <div class="flex items-center">
-          <nuxt-link to="/">
-            <a class="text-2xl">
-              <img class="w-24 md:w-36 h-auto" src="/img/logo.png" alt="Tatlumba">
-            </a>
+          <nuxt-link :to="headerData.logo.link">
+            <img class="w-24 md:w-36 h-auto text-2xl" :src="headerData.logo.src.split('public')[1]" :alt="headerData.logo.alt">
           </nuxt-link>
         </div>
         <nav class="hidden md:flex items-center">
-          <nuxt-link
-            to="/"
-            class="nav-link px-3 py-1"
-            exact-active-class="text-violet-500"
-          >
-            Home
-          </nuxt-link>
-          <nuxt-link
-            to="/services"
-            class="nav-link px-3 py-1"
-            exact-active-class="text-violet-500"
-          >
-            Services
-          </nuxt-link>
-          <nuxt-link
-            to="/case-studies"
-            class="nav-link px-3 py-1"
-            exact-active-class="text-violet-500"
-          >
-            Case Studies
-          </nuxt-link>
-          <nuxt-link class="btn-primary ml-3" to="/contact">
-            Contact
+          <div v-for="nav in headerData.navigation.list" :key="nav">
+            <nuxt-link
+              :to="nav.link"
+              class="nav-link px-3 py-1"
+              exact-active-class="text-violet-500"
+            >
+              {{ nav.name }}
+            </nuxt-link>
+          </div>
+          <nuxt-link class="btn-primary ml-3" :to="headerData.button.link">
+            {{ headerData.button.label }}
           </nuxt-link>
         </nav>
         <button
@@ -53,9 +39,7 @@
       <div class="flex justify-between w-full">
         <div class="flex items-center">
           <nuxt-link to="/">
-            <a class="text-2xl">
-              <img class="w-24 h-auto" src="/img/logo.png" alt="Tatlumba">
-            </a>
+            <img class="w-24 md:w-36 h-auto text-2xl" :src="headerData.logo.src.split('public')[1]" :alt="headerData.logo.alt">
           </nuxt-link>
         </div>
         <button class="block md:hidden app-link" @click="mobileNav = false">
@@ -63,40 +47,33 @@
         </button>
       </div>
       <nav class="flex flex-col mt-4">
+        <div v-for="nav in headerData.navigation.list" :key="nav">
+          <nuxt-link
+            :to="nav.link"
+            class="nav-link px-3 py-1"
+            exact-active-class="text-violet-500"
+          >
+            {{ nav.name }}
+          </nuxt-link>
+        </div>
         <nuxt-link
-          to="/"
-          class="nav-link py-1 mt-4"
+          class="nav-link px-3 py-1"
           exact-active-class="text-violet-500"
+          :to="headerData.button.link"
         >
-          Home
-        </nuxt-link>
-        <nuxt-link
-          to="/services"
-          class="nav-link py-1 mt-4"
-          exact-active-class="text-violet-500"
-        >
-          Services
-        </nuxt-link>
-        <nuxt-link
-          to="/case-studies"
-          class="nav-link py-1 mt-4"
-          exact-active-class="text-violet-500"
-        >
-          Case Studies
-        </nuxt-link>
-        <nuxt-link
-          to="/contact"
-          class="nav-link py-1 mt-4"
-          exact-active-class="text-violet-500"
-        >
-          Contact
+          {{ headerData.button.label }}
         </nuxt-link>
       </nav>
     </div>
   </header>
 </template>
 
-<script setup lang="ts">
+<script setup>
+const { data } = await useAsyncData('header', () =>
+  queryContent('contentrain', 'header').findOne()
+)
+const headerData = data.value.body[0]
+
 const route = useRoute()
 const mobileNav = ref(false)
 watch(

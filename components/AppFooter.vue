@@ -3,46 +3,45 @@
     <div class="container mx-auto flex justify-between flex-wrap w-full px-4 sm:px-0">
       <div class="footer-section w-full md:w-1/3 md:max-w-xs">
         <h3 class="font-semibold text-xl mb-4">
-          Our Expertise
+          {{ footerData.summary.title }}
         </h3>
-        <p class="font-normal max-w-xs">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit <a class="app-link inline" href="https://contentrain.io" target="_blank" rel="noopener noreferrer"> Contentrain.io</a> Ex delectus,
-          qui odio esse, asperiores laudantium atque laborum aliquid.
-        </p>
+        <div class="font-normal max-w-xs" v-html="footerData.summary.description" />
       </div>
       <div class="footer-section w-full md:w-1/3 md:max-w-xs py-12 md:py-0 text-left md:text-center">
         <h3 class="font-semibold text-xl mb-4">
-          Follow Us
+          {{ footerData.socialLinks.title }}
         </h3>
-        <a class="social-link inline-block mr-4 md:p-2 text-2xl" href="http://" target="_blank" rel="noopener noreferrer">
-          <i class="ri-instagram-line" />
-        </a>
-        <a class="social-link inline-block mr-4 md:p-2 text-2xl" href="http://" target="_blank" rel="noopener noreferrer">
-          <i class="ri-linkedin-line" />
-        </a>
-        <a class="social-link inline-block mr-4 md:p-2 text-2xl" href="http://" target="_blank" rel="noopener noreferrer">
-          <i class="ri-twitter-line" />
-        </a>
-        <a class="social-link inline-block mr-4 md:p-2 text-2xl" href="http://" target="_blank" rel="noopener noreferrer">
-          <i class="ri-youtube-line" />
-        </a>
+        <div class="flex flex-row justify-center items-center">
+          <div v-for="item in footerData.socialLinks.list" :key="item">
+            <a class="social-link  mr-4 md:p-2 text-2xl" :href="item.URL" target="_blank" rel="noopener noreferrer">
+              <i :class="item.icon" />
+            </a>
+          </div>
+        </div>
       </div>
       <div class="footer-section w-full md:w-1/3 md:max-w-xs md:flex md:flex-col md:items-end">
         <div>
           <h3 class="font-semibold text-xl mb-4 md:w-max">
-            Studies
+            {{ footerData.siteMap.title }}
           </h3>
           <ul class="sm:w-max">
-            <li>Case one ipsum, dolor </li>
-            <li>Case two ipsum, dolor </li>
-            <li>Case three ipsum </li>
+            <li v-for="item in footerData.siteMap.list" :key="item">
+              <nuxt-link :to="item.link">
+                {{ item.title }}
+              </nuxt-link>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
 </template>
+<script setup>
+const { data } = await useAsyncData('footer', () =>
+  queryContent('contentrain', 'footer').findOne()
+)
+const footerData = data.value.body[0]
 
-<script setup lang="ts"></script>
+</script>
 
 <style scoped></style>

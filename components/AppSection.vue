@@ -1,7 +1,7 @@
 <template>
   <section class="app-section" :class="reverse ? 'flex-row-reverse' : ''">
     <div class="media">
-      <img :src="section.media.src" :alt="section.media.alt">
+      <img :src="section.media.src.split('public')[1]" :alt="section.media.alt">
     </div>
     <div class="content">
       <h1 class=" text-4xl font-semibold mb-6">

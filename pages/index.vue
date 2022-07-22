@@ -19,7 +19,7 @@
       <div class="media p-0 md:pl-2">
         <img
           class="w-full h-auto rounded-2xl mt-12 md:mt-0"
-          :src="homePage.hero.media.src"
+          :src="homePage.hero.media.src.split('public')[1]"
           :alt="homePage.hero.media.alt"
         >
       </div>
@@ -34,7 +34,7 @@
       </div>
       <div v-for="logo in homePage.references.media" :key="logo" class="reference-logo-container">
         <img
-          :src="logo.src"
+          :src="logo.src.split('public')[1]"
           :alt="logo.alt"
           class="reference-logo w-full h-auto"
         >
@@ -107,7 +107,7 @@
           <div class="image">
             <img
               class="w-full h-auto rounded-2xl"
-              :src="study.media.src"
+              :src="study.media.src.split('public')[1]"
               :alt="study.media.alt"
             >
           </div>
