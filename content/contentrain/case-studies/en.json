@@ -7,7 +7,15 @@
     "content": "# Sed hic testor vis sanabilis factaque in\n\n## Se illam ulterius nondum si haesit haec\n\nLorem markdownum, lenius et vince Eetioneas Philyreius territa audax famuli? Ad\n*pocula olorinis*, primus astra obsidis, arvis ne infelix rebus imis iuventa non\nunam plagas, **ignesque**! Est nisi post avertens, ille boumque figuras, missi\nsepulcri inmutat.\n\n",
     "description": "test",
     "categories": [],
-    "appHero": [],
+    "appHero": {
+      "ID": "d67bb3c9-a94a-4a6e-af95-bb2c967e912b",
+      "title": "test",
+      "subtitle": "test",
+      "description": "test",
+      "media": [],
+      "logo": [],
+      "createdAt": 1658495561626
+    },
     "banner": [],
     "createdAt": 1658495543599
   }
