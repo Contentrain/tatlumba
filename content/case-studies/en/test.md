@@ -15,7 +15,12 @@ appHero:
     src: "public/img/1658495588243_background.jpeg"
     alt: "background"
     createdAt: 1658495595338
-  logo: []
+  logo:
+    ID: "eddd6e6e-c4ae-4510-be58-83548de8cc61"
+    src: "public/img/1658495665619_logo.png"
+    alt: "logo"
+    link: "/"
+    createdAt: 1658495674059
   createdAt: 1658495561626
 banner: []
 createdAt: 1658495543599
