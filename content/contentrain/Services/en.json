@@ -84,7 +84,9 @@
           "icon": "ri-arrow-right-up-line",
           "createdAt": 1658401728496
         },
-        "createdAt": 1658400913823
+        "createdAt": 1658400913823,
+        "index": 1,
+        "updatedAt": 1658490572102
       },
       {
         "ID": "1a1031d4-c344-4e2e-9b77-11946f08533e",
