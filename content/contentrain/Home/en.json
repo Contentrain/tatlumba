@@ -185,22 +185,22 @@
         {
           "ID": "93ce9680-b62e-4e11-afc8-a53874e29bbb",
           "icon": "ri-double-quotes-l",
-          "description": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
-          "name": "Evan Ferguson, Shopify",
+          "quote": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
+          "author": "Evan Ferguson, Shopify",
           "createdAt": 1658397710272
         },
         {
           "ID": "8e27283c-7200-444a-ab30-5bc0a0fa3c07",
           "icon": "ri-double-quotes-l",
-          "description": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
-          "name": "Evan Ferguson, Shopify",
+          "quote": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
+          "author": "Evan Ferguson, Shopify",
           "createdAt": 1658397722418
         },
         {
           "ID": "02937cbb-a36d-4a66-837e-e60bf8d4fe0e",
           "icon": "ri-double-quotes-l",
-          "description": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
-          "name": "Evan Ferguson, Shopify",
+          "quote": "Wordify is fast, reliable, and passionate. They actually care about creating good content.",
+          "author": "Evan Ferguson, Shopify",
           "createdAt": 1658397734377
         }
       ],
