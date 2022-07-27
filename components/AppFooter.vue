@@ -25,8 +25,8 @@
             {{ footerData.siteMap.title }}
           </h3>
           <ul class="sm:w-max">
-            <li v-for="item in footerData.siteMap.list" :key="item">
-              <nuxt-link :to="item.link">
+            <li v-for="item in list.data.value[0].body" :key="item">
+              <nuxt-link :to="`/case-studies/${item.slug}`">
                 {{ item.title }}
               </nuxt-link>
             </li>
@@ -41,6 +41,10 @@ const { data } = await useAsyncData('footer', () =>
   queryContent('contentrain', 'footer').findOne()
 )
 const footerData = data.value.body[0]
+
+const list = await useAsyncData('list', () =>
+  queryContent('contentrain', 'case-studies').find()
+)
 
 </script>
 
