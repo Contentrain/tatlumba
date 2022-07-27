@@ -135,18 +135,18 @@
         </p>
       </div>
       <div class="app-cards pb-32 pt-4">
-        <div v-for="quote in homePage.testimonials.cards" :key="quote" class="app-card p-6">
+        <div v-for="testimonials in homePage.testimonials.cards" :key="testimonials" class="app-card p-6">
           <div class="icon">
-            <i class="text-5xl" :class="quote.icon" />
+            <i class="text-5xl" :class="testimonials.icon" />
           </div>
           <div class="content mt-3">
             <h3 class="font-medium">
-              {{ quote.description }}
+              {{ testimonials.quote }}
             </h3>
           </div>
           <div class="mt-6">
             <p class="text-sm flex items-center">
-              <span class="w-4 border-b border-2 border-violet-500 mr-2" />{{ quote.name }}
+              <span class="w-4 border-b border-2 border-violet-500 mr-2" />{{ testimonials.author }}
             </p>
           </div>
         </div>
