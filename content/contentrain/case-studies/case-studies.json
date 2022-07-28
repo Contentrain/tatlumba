@@ -41,5 +41,17 @@
       "createdAt": 1658496260182
     },
     "createdAt": 1658496002826
+  },
+  {
+    "ID": "a60b5c6b-a3c4-4780-a13b-ecbdae21305d",
+    "title": "deneme",
+    "slug": "meme",
+    "categories": [],
+    "tags": [],
+    "content": "",
+    "description": "",
+    "appHero": [],
+    "banner": [],
+    "createdAt": 1659013324530
   }
 ]
