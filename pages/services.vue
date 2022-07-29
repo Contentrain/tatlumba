@@ -44,7 +44,7 @@ const { data } = await useAsyncData('services', () =>
   queryContent('contentrain', 'services').findOne()
 )
 const servicesPage = data.value.body[0]
-const detailsCards = servicesData.details
+const detailsCards = servicesPage.details
 
 delete detailsCards.ID
 delete detailsCards.updatedAt
