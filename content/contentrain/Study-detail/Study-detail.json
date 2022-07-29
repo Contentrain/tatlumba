@@ -1,6 +1,12 @@
 [
   {
-    "banner": {},
+    "banner": {
+      "ID": "3aaef29f-8ed8-4de6-a122-d0363749df54",
+      "title": "Level up your content",
+      "description": "Ready to talk your content strategy",
+      "button": [],
+      "createdAt": 1659073638362
+    },
     "createdAt": 1659073607329,
     "ID": "f135aac5-244a-4d06-88db-85364848b433"
   }
