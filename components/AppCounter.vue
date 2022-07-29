@@ -5,14 +5,12 @@
       :key="numberKey"
       class="app-card text-center"
     >
-      <template v-if="number.value">
-        <h1 class="font-semibold text-5xl mb-4">
-          +{{ animatedNumbers[numberKey] }}k
-        </h1>
-        <p class="font-medium text-xl max-w-xs mx-auto">
-          {{ number.description }}
-        </p>
-      </template>
+      <h1 class="font-semibold text-5xl mb-4">
+        +{{ animatedNumbers[numberKey] }}k
+      </h1>
+      <p class="font-medium text-xl max-w-xs mx-auto">
+        {{ number.description }}
+      </p>
     </div>
   </section>
 </template>

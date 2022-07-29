@@ -8,7 +8,7 @@
       :media="servicesPage.appHero.media"
       :logo="servicesPage.appHero.logo"
     />
-    <AppCounter class="mb-32" :cards="servicesPage.details" />
+    <AppCounter class="mb-32" :cards="detailsCards" />
     <AppSection
       v-for="section in servicesPage.sections"
       :key="section"
@@ -44,5 +44,10 @@ const { data } = await useAsyncData('services', () =>
   queryContent('contentrain', 'services').findOne()
 )
 const servicesPage = data.value.body[0]
+const detailsCards = servicesData.details
+
+delete detailsCards.ID
+delete detailsCards.updatedAt
+delete detailsCards.createdAt
 
 </script>
