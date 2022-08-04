@@ -262,13 +262,6 @@ We will soon publish a video about how to use this template with Contentrain.
 |media|appHero background image| - |
 |logo|appHero right side clickable logo| - |
 
-##### first-second-third object
-
-|variable|description|options|
-|-|-|-|
-|value|count to this value from 0| - |
-|description|explanation about the what is value about| - |
-
 #### sections object
 
 |variable|description|options|
