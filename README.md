@@ -71,7 +71,7 @@ We will soon publish a video about how to use this template with Contentrain.
 |-|-|-|
 |label|Shown on your button| - |
 |link|Location when clicked button| - |
-|icon|An icon shown on your labels right side|use remixicon|
+|icon|An icon shown on your labels right side|[**remixicon**](https://remixicon.com/)|
 
 ### Footer
 
@@ -99,7 +99,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 |variable|description|options|
 |-|-|-|
-|icon|An icon as button |use remixicon|
+|icon|An icon as button |[**remixicon**](https://remixicon.com/)|
 |URL|your social account link| - |
 
 ### Home
@@ -149,7 +149,7 @@ We will soon publish a video about how to use this template with Contentrain.
 |-|-|-|
 |title|Card title| - |
 |description|Card description| - |
-|icon|An icon shown on your cards top|use remixicon|
+|icon|An icon shown on your cards top|[**remixicon**](https://remixicon.com/)|
 |button|A button below your description| - |
 
 #### banner object
@@ -189,7 +189,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 |variable|description|options|
 |-|-|-|
-|icon|An icon shown your top of card|use remixicon| - |
+|icon|An icon shown your top of card|[**remixicon**](https://remixicon.com/)|
 |quote|Opinion about your page or product| - |
 |author|Owner of the quote| - |
 
