@@ -195,7 +195,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 ### Services
 
-|field name|field - object|inside object|
+|variable|description|options|
 |-|-|-|
 |appHero|Top of the services page| - |
 |details|Counters about your product| - |
@@ -246,7 +246,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 ### Studies
 
-|field name|field - object|inside object|
+|variable|description|options|
 |-|-|-|
 |appHero|Top of the services page| - |
 |sections|Allows you to create fields| - |
@@ -281,7 +281,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 ### case-studies
 
-|field name|field - object|inside object|
+|variable|description|options|
 |-|-|-|
 |title|Your post title also shown in footer under the siteMap title|
 |slug|Your post link like '/case-studies/*first-post*'|
